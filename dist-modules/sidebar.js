@@ -117,14 +117,14 @@ var Sidebar = function (_Component) {
       });
       this.saveSidebarWidth();
     }
-  }, {
-    key: 'componentDidUpdate',
-    value: function componentDidUpdate() {
-      // filter out the updates when we're touching
-      if (!this.isTouching()) {
-        this.saveSidebarWidth();
-      }
-    }
+
+    // componentDidUpdate() {
+    //   // filter out the updates when we're touching
+    //   if (!this.isTouching()) {
+    //     this.saveSidebarWidth();
+    //   }
+    // }
+
   }, {
     key: 'onTouchStart',
     value: function onTouchStart(ev) {

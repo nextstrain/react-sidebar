@@ -86,12 +86,12 @@ class Sidebar extends Component {
     this.saveSidebarWidth();
   }
 
-  componentDidUpdate() {
-    // filter out the updates when we're touching
-    if (!this.isTouching()) {
-      this.saveSidebarWidth();
-    }
-  }
+  // componentDidUpdate() {
+  //   // filter out the updates when we're touching
+  //   if (!this.isTouching()) {
+  //     this.saveSidebarWidth();
+  //   }
+  // }
 
   onTouchStart(ev) {
     // filter out if a user starts swiping with a second finger
