@@ -283,14 +283,14 @@ var Sidebar = function (_Component) {
         sidebarStyle.transform = 'translateX(100%)';
         sidebarStyle.WebkitTransform = 'translateX(100%)';
         if (this.props.shadow) {
-          sidebarStyle.boxShadow = '-4px 0px 8px -4px rgba(0, 0, 0, 0.15) inset';
+          sidebarStyle.boxShadow = '-3px 0px 6px -3px rgba(0, 0, 0, 0.15) inset';
         }
       } else {
         sidebarStyle.left = 0;
         sidebarStyle.transform = 'translateX(-100%)';
         sidebarStyle.WebkitTransform = 'translateX(-100%)';
         if (this.props.shadow) {
-          sidebarStyle.boxShadow = '-4px 0px 8px -4px rgba(0, 0, 0, 0.15) inset';
+          sidebarStyle.boxShadow = '-3px 0px 6px -3px rgba(0, 0, 0, 0.15) inset';
         }
       }
 
